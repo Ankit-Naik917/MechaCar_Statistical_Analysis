@@ -1,0 +1,7 @@
+# Import dependensis
+#Step 3: Use the library() function to load the dplyr package
+library(dplyr)
+library(tidyverse)
+# Step 4: Import and read in the MechaCar_mpg.csv file as a dataframe.
+mecha_mpg <- read.csv(file='./Resources/MechaCar_mpg.csv',check.names=F,stringsAsFactors = F)
+
