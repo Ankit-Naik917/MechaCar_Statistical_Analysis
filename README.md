@@ -35,3 +35,13 @@ For Lot 1 and 2 the menas are 1500 and 1500.2 and p-values are 1 and 0.6072 resp
 
 ## Study Design: MechaCar vs Competition
 
+Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating. 
+
+There are many matrics that consumer have interests before purchasing. I will consider safety rating, fuel type, highway/city fuel efficiency, horsepower and purchase price. 
+
+The null hypothesis : the car is prices correctly based on the matrices.
+The alternate hypothesis : the car is not priced based on the matrices.
+
+Safety rating, fuel type, highway/city fuel efficiency and horsepower would be independant variable and purchase price would be dependent variable. Based on the variables mentioned, multiple linear regression test would be used to test the hypothesis due to the dependencis of purchase price on the independant variables.
+
+To run the statistical test, we would require safety rating, fuel type, highway/city fuel efficiency, horsepower and purchase price data from mechacar dataset as well as same data from other competitors.
