@@ -1,7 +1,7 @@
 # MechaCar_Statistical_Analysis
 ## Linear Regression to Predict MPG
 
-
+![Deliverable 1 Screenshot](https://user-images.githubusercontent.com/103617509/193675222-b4ebd0b2-9272-41bc-9dcf-7faabaeb7f55.png)
 
 Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
 
@@ -17,13 +17,15 @@ The value of R-squared is 0.7149 which means that model has 71.5% accuracy in pr
 
 ## Summary Statistics on Suspension Coils
 
-
+![Deliverable 2 Screenshot](https://user-images.githubusercontent.com/103617509/193675226-7b32c4e2-5379-4506-b5a9-9e0048a215ab.png)
 
 The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
 
 The variance for total_summary screenshot above shows 62PSI which is below the design specification of 100PSI. Therefore we can say that the current manufacturing data meet the design specification for total manufacturing. However, when we look at the individual lots, the lot 1 and 2 are well within the specification but lot 3 is outside the specification with 170PSI variance. As a result, lot 3 does not meeting the specification. 
 
 ## T-Tests on Suspension Coils
+
+![Deliverable 3 Screenshot](https://user-images.githubusercontent.com/103617509/193675229-b16cd446-bbe7-4e94-903e-1100b52c6d40.png)
 
 summary of the t-test results across all manufacturing lots and for each lot
 
